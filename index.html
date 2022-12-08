@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 1</title>
+    <meta author="José Pérez">
+    <link rel="stylesheet" href="./style/estilos.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--====================== ENCABEZADO ================================ -->
+    <header class="container-fluid bg-info d-flex justify-content-center">
+        <p class="text-light mb-0 p-2 fs-6">Contactanos (+502) 5161-0909</p>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light p-3" id="menu">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <span class="fs-5 text-primary fw-bold">SoluciónXTi</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#equipo">Equipo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#seccion-contacto">Contactos</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="email" placeholder="Correo Electronico"
+                        aria-label="Suscribete">
+                    <button class="btn btn-primary btn-primary-outline-success" type="button">Suscribete</button>
+                </form>
+            </div>
+
+        </div>
+    </nav>
+    <!--====================== SLIDER DE IMAGENES ================================ -->
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="./img/imagen1.jpg" class="d-block w-100" alt="Imagen1">
+            </div>
+
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="./img/imagen2.jpg" class="d-block w-100" alt="Imagen2">
+            </div>
+
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="./img/imagen3.jpg" class="d-block w-100" alt="Imagen3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!--====================== INTRO ================================ -->
+    <section class="d-flex flex-column justify-content-center align-items-center pt-5  text-center w-50 m-auto"
+        id="intro">
+        <h1 class="p-3 fs-2 border-top border-3">Somos una compañia para todas tus necesidades de <span
+                class="text-primary">Marketing Digital<span /></h1>
+        <p class="p-3  fs-4">
+            <span class="text-primary">SoluciónXTi</span> es la agencia donde te ayudamos establecer tu presencia
+            online.
+            SEO, paginas WEB, tiendas virtuales, redes sociales
+        </p>
+    </section>
+    <!--====================== SERVICIOS ================================ -->
+    <section class="w-100">
+        <div class="row w-75 mx-auto" id="servicios-fila-1">
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+                <img src="./img/desarrollo.png" alt="desarrollo" width="180" height="160">
+
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Desarrollo</h3>
+                    <p class="px-4">Desarrollo de aplicaciones WEB, moviles y ecommerce</p>
+                </div>
+
+            </div>
+
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+                <img src="./img/concepto.png" alt="concepto" width="180" height="160">
+
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1 icono-wrap">Branding</h3>
+                    <p class="px-4">Diseño, Conceptualización e Implementación de productos digitales</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row w-75 mx-auto mb-5" id="servicios-fila-2">
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+                <img src="./img/comunicaciones.png" alt="comunicaciones" width="180" height="160">
+
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Comunicaciones</h3>
+                    <p class="px-4">Desarrollo del plan de comunicaciones para sus clientes.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+                <img src="./img/seo.png" alt="seo" width="180" height="160">
+
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">SEO</h3>
+                    <p class="px-4">Analizamos la eficiencia y optimizamos los sitios WEB</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--====================== ACERCA DE ================================ -->
+    <section>
+        <div class="container w-50 m-auto text-center" id="equipo">
+            <h1 class="mb-5 fs-2">Equipo pequeño con <span class="text-success">resultados Grandes</span>.</h1>
+            <p class="fs-4 ">Siempre buscamos las personas adecuadas para que trabajen con nosotros. Si te sientes listo
+                para este reto, te esperamos para que te unas a nosotros.</p>
+        </div>
+
+        <div class="mt-5 text-center">
+            <img id="img-equipo" src="./img/equipo.jpg" alt="equipo">
+        </div>
+
+        <div id="local" class="border-top border-2">
+            <div class="mapa"> </div>
+            <div>
+                <div class="wrapper-local">
+                    <h2>Ubicado en Centro Comercial Tikal Futura</h2>
+                    <h2 class="text-primary mb-4" id="typewriter"></h2>
+                    <p class="fs-5 text-body">Elijimos C.C. Tikal Futura para nuestra oficina con el objetivo de estar
+                        cerca de
+                        nuestros clientes. Estamos ubicados en la Zona 11 de la Ciudad de Guatemala,
+                        cerca de los mejores restaurantes, tiendas. ¡Visitennos y no
+                        se arrepentiran!</p>
+                    <section class="d-flex justify-content-start" id="numeros-local">
+                        <div>
+                            <p class="text-primary fs-5">200</p>
+                            <p>Dias de Sol</p>
+                        </div>
+                        <div>
+                            <p class="text-primary fs-5">100%</p>
+                            <p>Aprobado</p>
+                        </div>
+                        <div>
+                            <p class="text-primary fs-5">24 °C</p>
+                            <p>Temperatura</p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--====================== CONTACTO ================================ -->
+    <section id="seccion-contacto" class="border-bottom border-secondary border-2">
+        <div id="bg-contactos">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#1b2a4e" fill-opacity="1"
+                    d="M0,32L120,42.7C240,53,480,75,720,74.7C960,75,1200,53,1320,42.7L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
+                </path>
+            </svg>
+        </div>
+
+
+        <!--======================= FORMULARIO ============================== -->
+
+        <div class="container  border-top border-primary " style="max-width: 500px" id="contenedor-formulario">
+            <div class="text-center mb-4" id="titulo-formulario">
+                <div><img src="./img/support.png" alt="" class="img-fluid ps-5"></div>
+                <h1>Contactanos</h1>
+                <p class="fs-5">Estamos aqui para hacer realidad de tus proyectos</p>
+            </div>
+
+
+
+            <form method="POST" data-netlify="true" action="#">
+                <div class="mb-3">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="nombre@ejemplo.com">
+                </div>
+
+
+                <div class="mb-3">
+                    <input type="input" class="form-control" id="name" name="name" placeholder="Ingrese nombre">
+                </div>
+
+
+                <div class="mb-3">
+                    <input type="tel" class="form-control" name="tel" id="tel" placeholder="Teléfono">
+                </div>
+
+                <div class="mb-3">
+                    <textarea class="form-control" name="message" id="message" rows="4"
+                        placeholder="Ingrese el mensaje..."></textarea>
+                </div>
+
+                <div class="mb-3">
+                    <button type="submit" class=" btn btn-primary w-100 fs-5">Enviar Mensaje</button>
+                </div>
+            </form>
+
+        </div>
+    </section>
+    <br>
+    <br>
+    <!--======================= Accordion ============================== -->
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <h1 class="mb-5 fs-2 text-success text-center">TESTIMONIOS DE CLIENTES</h1>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Testimonio Cliente #1
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    Desde el primer momento, me ayudaron con todos los mínimos detalles respecto al alojamiento,
+                    dominios y páginas Web. Estuvieron siempre disponibles y me ayudaron con el mismo entusiasmo de un
+                    principio. Por eso no me queda mas que agradecerles. Recomiendo sus servicios al 100%.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Testimonio Cliente #2
+                </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    Encontré mucho más de lo que esperaba, su dedicación al cliente supera cualquier otra experiencia
+                    previa, siempre responden a mis dudas con total cortesía y resuelven cualquier problema con
+                    eficacia. Para alguien como yo que recién se inicia en el mercado de la Internet debo decir ha sido
+                    una decisión acertada.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Testimonio Cliente #3
+                </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    El servicio brindado por Perucreativo es realmente veloz y efectivo, la asesoria brindada dan
+                    solución a todas nuestras interrogantes en el menor tiempo posible, el portal de la Comisaría de
+                    Surquillo nace con el propósito de brindar un servicio integral en Línea, tanto informativo como
+                    interactivo a favor de nuestra apreciada comunidad.
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!--====================== TABLA ================================ -->
+    <h1 class="mb-5 fs-2 text-primary text-center">HORARIOS DE ATENCION</h1>
+    <div class="container" id="mi_tabla">
+        <table class="table table-hover table-dark tableFixHead">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">DIA</th>
+                    <th scope="col">HORARIO</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="table-primary" scope="row">1</th>
+                    <td class="table-primary">Lunes</td>
+                    <td class="table-primary">08:00 am - 17:00 pm</td>
+                </tr>
+                <tr>
+                    <th class="table-primary" scope="row">2</th>
+                    <td class="table-primary">Martes</td>
+                    <td class="table-primary">08:00 am - 17:00 pm</td>
+                </tr>
+                <tr>
+                    <th class="table-primary" scope="row">3</th>
+                    <td class="table-primary">Miercoles</td>
+                    <td class="table-primary">08:00 am - 17:00 pm</td>
+                </tr>
+                <tr>
+                    <th class="table-primary" scope="row">4</th>
+                    <td class="table-primary">Jueves</td>
+                    <td class="table-primary">08:00 am - 17:00 pm</td>
+                </tr>
+                <tr>
+                    <th class="table-secondary" scope="row">5</th>
+                    <td class="table-secondary">Viernes</td>
+                    <td class="table-secondary">08:00 am - 16:00 pm</td>
+                </tr>
+                <tr>
+                    <th class="table-warning" scope="row">6</th>
+                    <td class="table-warning">Sábado</td>
+                    <td class="table-warning">08:00 am - 12:00 pm</td>
+                </tr>
+                <tr>
+                    <th class="table-danger" scope="row">7</th>
+                    <td class="table-danger">Domingo</td>
+                    <td class="table-danger">Cerrado</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!--====================== FOOTER ================================ -->
+    <footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap">
+        <h3 class="fs-5 px-3  pt-3">SoluciónXTi &copy; Todos Los Derechos Reservados 2022</h3>
+        <div id="iconos">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+        </div>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+<!--====================== https://www.youtube.com/watch?v=A5MF1mwmgRI&t=3404s ================================ -->
+
+</html>
